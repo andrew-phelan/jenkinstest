@@ -3,48 +3,48 @@
   <groupId>org.sample</groupId>
   <artifactId>SampleEntity</artifactId>
   <version>0.0.1-SNAPSHOT</version>
-  <dependencies>
-    
-  </dependencies>
-  <dependency>
-		<groupId>org.sample</groupId>
-		<artifactId>antlr</artifactId>
-		<version>2.7.6</version>
-</dependency>
-<dependency>
-		<groupId>org.sample</groupId>
-		<artifactId>apache-collections-commons-collection</artifactId>
-		<version>3.1</version>
-</dependency>
-<dependency>
-		<groupId>org.sample</groupId>
-		<artifactId>c3p0</artifactId>
-		<version>0.9.1</version>
-</dependency>
-<dependency>
-		<groupId>org.sample</groupId>
-		<artifactId>dom4j</artifactId>
-		<version>1.6</version>
-</dependency>
-<dependency>
-		<groupId>org.sample</groupId>
-		<artifactId>javaassist</artifactId>
-		<version>3.9.0.GA</version>
-</dependency>
-<dependency>
-		<groupId>org.sample</groupId>
-		<artifactId>JTA</artifactId>
-		<version>1_1</version>
-</dependency>
-<dependency>
-		<groupId>org.sample</groupId>
-		<artifactId>slf4j-api</artifactId>
-		<version>1.5.8</version>
-</dependency>
-<dependency>
-		<groupId>org.sample</groupId>
-		<artifactId>slf4j-simple</artifactId>
-		<version>1.5.8</version>
-</dependency>
-</dependencies>
+  <dependencyManagement>
+	<dependencies>
+		<dependency>
+				<groupId>org.sample</groupId>
+				<artifactId>antlr</artifactId>
+				<version>2.7.6</version>
+		</dependency>
+		<dependency>
+				<groupId>org.sample</groupId>
+				<artifactId>apache-collections-commons-collection</artifactId>
+				<version>3.1</version>
+		</dependency>
+		<dependency>
+				<groupId>org.sample</groupId>
+				<artifactId>c3p0</artifactId>
+				<version>0.9.1</version>
+		</dependency>
+		<dependency>
+				<groupId>org.sample</groupId>
+				<artifactId>dom4j</artifactId>
+				<version>1.6</version>
+		</dependency>
+		<dependency>
+				<groupId>org.sample</groupId>
+				<artifactId>javaassist</artifactId>
+				<version>3.9.0.GA</version>
+		</dependency>
+		<dependency>
+				<groupId>org.sample</groupId>
+				<artifactId>JTA</artifactId>
+				<version>1_1</version>
+		</dependency>
+		<dependency>
+				<groupId>org.sample</groupId>
+				<artifactId>slf4j-api</artifactId>
+				<version>1.5.8</version>
+		</dependency>
+		<dependency>
+				<groupId>org.sample</groupId>
+				<artifactId>slf4j-simple</artifactId>
+				<version>1.5.8</version>
+		</dependency>
+	</dependencies>
+</dependencyManagement>
 </project>
